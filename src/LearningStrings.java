@@ -4,6 +4,17 @@
 
 public class LearningStrings {
     public static void main(String[] args) {
-        System.out.println("hello world");
+        String name = "James Eric Couch";
+        System.out.println(name.indexOf("x"));
+        // false
+        System.out.println(name.indexOf("C"));
+        // 5
+
+        
+
+        String[] names = name.split(" ");
+        System.out.println(names[0]);
+
+
     }
 }
